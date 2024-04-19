@@ -69,6 +69,10 @@
           {
             "name": "world",
             "type": "dojo::world::IWorldDispatcher"
+          },
+          {
+            "name": "name",
+            "type": "core::felt252"
           }
         ],
         "outputs": [],

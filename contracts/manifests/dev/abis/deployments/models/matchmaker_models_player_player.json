@@ -185,6 +185,10 @@
         "type": "core::starknet::contract_address::ContractAddress"
       },
       {
+        "name": "name",
+        "type": "core::felt252"
+      },
+      {
         "name": "league_id",
         "type": "core::integer::u8"
       },

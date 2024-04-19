@@ -18,8 +18,8 @@ name = "dojo::base::base"
 [[contracts]]
 kind = "DojoContract"
 address = "0x160a189a9d2e358f59a523903a1986fed686a3ca39e040ed84e68c0b017762a"
-class_hash = "0x1ebeaf31f1f6fbf771e1e7efd5c22f68b92b4c9419a4492bc18912970790e25"
-original_class_hash = "0x1ebeaf31f1f6fbf771e1e7efd5c22f68b92b4c9419a4492bc18912970790e25"
+class_hash = "0x180fbcb6342efec0588a1857fed8723091c31fd5da2b4ce6f0daecf46476848"
+original_class_hash = "0x180fbcb6342efec0588a1857fed8723091c31fd5da2b4ce6f0daecf46476848"
 base_class_hash = "0x679177a2cb757694ac4f326d01052ff0963eac0bc2a17116a2b87badcdf6f76"
 abi = "abis/deployments/contracts/matchmaker_systems_maker_maker.json"
 reads = []
@@ -51,8 +51,8 @@ key = false
 
 [[models]]
 kind = "DojoModel"
-class_hash = "0x123699e6ea4e6f6b8a49e5ead3a787814f258c2333ffec84ed28f9c67bcc989"
-original_class_hash = "0x123699e6ea4e6f6b8a49e5ead3a787814f258c2333ffec84ed28f9c67bcc989"
+class_hash = "0x549c99ed44037b3e7937e18c18cfe66558f0e4fd21afc8dbdf13734205ecb78"
+original_class_hash = "0x549c99ed44037b3e7937e18c18cfe66558f0e4fd21afc8dbdf13734205ecb78"
 abi = "abis/deployments/models/matchmaker_models_player_player.json"
 name = "matchmaker::models::player::player"
 
@@ -65,6 +65,11 @@ key = true
 name = "id"
 type = "ContractAddress"
 key = true
+
+[[models.members]]
+name = "name"
+type = "felt252"
+key = false
 
 [[models.members]]
 name = "league_id"

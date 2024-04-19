@@ -1,6 +1,6 @@
 kind = "DojoModel"
-class_hash = "0x123699e6ea4e6f6b8a49e5ead3a787814f258c2333ffec84ed28f9c67bcc989"
-original_class_hash = "0x123699e6ea4e6f6b8a49e5ead3a787814f258c2333ffec84ed28f9c67bcc989"
+class_hash = "0x549c99ed44037b3e7937e18c18cfe66558f0e4fd21afc8dbdf13734205ecb78"
+original_class_hash = "0x549c99ed44037b3e7937e18c18cfe66558f0e4fd21afc8dbdf13734205ecb78"
 abi = "manifests/dev/abis/base/models/matchmaker_models_player_player.json"
 name = "matchmaker::models::player::player"
 
@@ -13,6 +13,11 @@ key = true
 name = "id"
 type = "ContractAddress"
 key = true
+
+[[members]]
+name = "name"
+type = "felt252"
+key = false
 
 [[members]]
 name = "league_id"

@@ -31,6 +31,7 @@ export function defineContractComponents(world: World) {
         {
           registry_id: RecsType.Number,
           id: RecsType.BigInt,
+          name: RecsType.BigInt,
           league_id: RecsType.Number,
           index: RecsType.Number,
           rating: RecsType.Number,
@@ -38,7 +39,7 @@ export function defineContractComponents(world: World) {
         {
           metadata: {
             name: "Player",
-            types: ["u32", "contractaddress", "u8", "u32", "u32"],
+            types: ["u32", "contractaddress", "felt252", "u8", "u32", "u32"],
             customTypes: [],
           },
         },
