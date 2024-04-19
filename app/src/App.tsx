@@ -60,11 +60,11 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4 h-screen">
+    <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-4 w-full items-center">
         <h1>Matchmaker</h1>
         <div className="flex flex-col justify-center items-center gap-2 my-4">
-          <p>Account: {account.address}</p>
+          <p>Account: {`${account.address.slice(0, 5)}...`}</p>
           <p>
             Player:{" "}
             {player

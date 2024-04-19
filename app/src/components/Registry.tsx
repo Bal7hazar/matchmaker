@@ -118,7 +118,7 @@ const Registry = React.memo((props: RegistryProps) => {
   return (
     <div className="flex justify-center items-center">
       <Carousel
-        className="w-full"
+        className="w-full max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-6xl"
         orientation={"horizontal"}
         opts={{ dragFree: true }}
       >
