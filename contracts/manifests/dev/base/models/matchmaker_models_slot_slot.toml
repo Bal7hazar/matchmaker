@@ -1,0 +1,25 @@
+kind = "DojoModel"
+class_hash = "0x44e1f9d46a3d0a95b434aca4d673fd91db582867296e888588c64e5a448b434"
+original_class_hash = "0x44e1f9d46a3d0a95b434aca4d673fd91db582867296e888588c64e5a448b434"
+abi = "manifests/dev/abis/base/models/matchmaker_models_slot_slot.json"
+name = "matchmaker::models::slot::slot"
+
+[[members]]
+name = "registry_id"
+type = "u32"
+key = true
+
+[[members]]
+name = "league_id"
+type = "u8"
+key = true
+
+[[members]]
+name = "index"
+type = "u32"
+key = true
+
+[[members]]
+name = "player_id"
+type = "ContractAddress"
+key = false

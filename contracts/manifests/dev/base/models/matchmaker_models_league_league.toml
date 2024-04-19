@@ -1,0 +1,20 @@
+kind = "DojoModel"
+class_hash = "0x222115e8b4b6e558ba985275cfc93ea391058d3dab521c846abf0b0e9942115"
+original_class_hash = "0x222115e8b4b6e558ba985275cfc93ea391058d3dab521c846abf0b0e9942115"
+abi = "manifests/dev/abis/base/models/matchmaker_models_league_league.json"
+name = "matchmaker::models::league::league"
+
+[[members]]
+name = "registry_id"
+type = "u32"
+key = true
+
+[[members]]
+name = "id"
+type = "u8"
+key = true
+
+[[members]]
+name = "size"
+type = "u32"
+key = false

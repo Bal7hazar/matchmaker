@@ -1,0 +1,9 @@
+kind = "DojoContract"
+class_hash = "0x1ebeaf31f1f6fbf771e1e7efd5c22f68b92b4c9419a4492bc18912970790e25"
+original_class_hash = "0x1ebeaf31f1f6fbf771e1e7efd5c22f68b92b4c9419a4492bc18912970790e25"
+base_class_hash = "0x0"
+abi = "manifests/dev/abis/base/contracts/matchmaker_systems_maker_maker.json"
+reads = []
+writes = []
+computed = []
+name = "matchmaker::systems::maker::maker"

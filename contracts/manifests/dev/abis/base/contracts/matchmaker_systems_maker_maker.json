@@ -1,0 +1,121 @@
+[
+  {
+    "type": "impl",
+    "name": "DojoResourceProviderImpl",
+    "interface_name": "dojo::world::IDojoResourceProvider"
+  },
+  {
+    "type": "interface",
+    "name": "dojo::world::IDojoResourceProvider",
+    "items": [
+      {
+        "type": "function",
+        "name": "dojo_resource",
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "core::felt252"
+          }
+        ],
+        "state_mutability": "view"
+      }
+    ]
+  },
+  {
+    "type": "impl",
+    "name": "WorldProviderImpl",
+    "interface_name": "dojo::world::IWorldProvider"
+  },
+  {
+    "type": "struct",
+    "name": "dojo::world::IWorldDispatcher",
+    "members": [
+      {
+        "name": "contract_address",
+        "type": "core::starknet::contract_address::ContractAddress"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "dojo::world::IWorldProvider",
+    "items": [
+      {
+        "type": "function",
+        "name": "world",
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "dojo::world::IWorldDispatcher"
+          }
+        ],
+        "state_mutability": "view"
+      }
+    ]
+  },
+  {
+    "type": "impl",
+    "name": "MakerImpl",
+    "interface_name": "matchmaker::systems::maker::IMaker"
+  },
+  {
+    "type": "interface",
+    "name": "matchmaker::systems::maker::IMaker",
+    "items": [
+      {
+        "type": "function",
+        "name": "create",
+        "inputs": [
+          {
+            "name": "world",
+            "type": "dojo::world::IWorldDispatcher"
+          }
+        ],
+        "outputs": [],
+        "state_mutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "subscribe",
+        "inputs": [
+          {
+            "name": "world",
+            "type": "dojo::world::IWorldDispatcher"
+          }
+        ],
+        "outputs": [],
+        "state_mutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "unsubscribe",
+        "inputs": [
+          {
+            "name": "world",
+            "type": "dojo::world::IWorldDispatcher"
+          }
+        ],
+        "outputs": [],
+        "state_mutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "fight",
+        "inputs": [
+          {
+            "name": "world",
+            "type": "dojo::world::IWorldDispatcher"
+          }
+        ],
+        "outputs": [],
+        "state_mutability": "view"
+      }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "matchmaker::systems::maker::maker::Event",
+    "kind": "enum",
+    "variants": []
+  }
+]
