@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
+import { Toaster } from "@/components/ui/sonner";
 import "./index.css";
 import { setup } from "./dojo/setup.ts";
 import { DojoProvider } from "./dojo/DojoContext.tsx";
@@ -17,6 +18,7 @@ async function init() {
     <React.StrictMode>
       <DojoProvider value={setupResult}>
         <App />
+        <Toaster position="top-center" />
       </DojoProvider>
     </React.StrictMode>,
   );

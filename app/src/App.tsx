@@ -6,7 +6,6 @@ import { getEntityIdFromKeys } from "@dojoengine/utils";
 import { useDojo } from "./dojo/useDojo";
 import { Button } from "./components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Toaster } from "@/components/ui/sonner";
 import Registry from "./components/Registry";
 import { shortString } from "starknet";
 
@@ -60,8 +59,8 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex flex-col gap-4 w-full items-center">
+    <div className="flex flex-col gap-4 w-full mt-20">
+      <div className="flex flex-col gap-4 w-full justify-start items-center">
         <h1>Matchmaker</h1>
         <div className="flex flex-col justify-center items-center gap-2 my-4">
           <p>Account: {`${account.address.slice(0, 5)}...`}</p>
@@ -110,7 +109,6 @@ function App() {
         </div>
       </div>
       <Registry />
-      <Toaster position="top-center" />
     </div>
   );
 }
