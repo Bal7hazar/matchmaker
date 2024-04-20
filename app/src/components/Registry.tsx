@@ -11,24 +11,24 @@ import {
 } from "@/components/ui/carousel";
 import League from "./League";
 
-import silver_01 from "@/assets/silver_01.png";
-import silver_02 from "@/assets/silver_02.png";
-import silver_03 from "@/assets/silver_03.png";
-import silver_elite from "@/assets/silver_elite.png";
-import silver_master from "@/assets/silver_master.png";
-import gold_nova_01 from "@/assets/gold_nova_01.png";
-import gold_nova_02 from "@/assets/gold_nova_02.png";
-import gold_nova_03 from "@/assets/gold_nova_03.png";
-import gold_nova_master from "@/assets/gold_nova_master.png";
-import master_guardian_01 from "@/assets/master_guardian_01.png";
-import master_guardian_02 from "@/assets/master_guardian_02.png";
-import master_guardian_elite from "@/assets/master_guardian_elite.png";
-import distinguished_master_guardian from "@/assets/distinguished_master_guardian.png";
-import legendary_eagle from "@/assets/legendary_eagle.png";
-import legendary_eagle_master from "@/assets/legendary_eagle_master.png";
-import supreme_master_first_class from "@/assets/supreme_master_first_class.png";
-import the_global_elite from "@/assets/the_global_elite.png";
-import unranked from "@/assets/unranked.png";
+import silver_01 from "/assets/silver_01.png";
+import silver_02 from "/assets/silver_02.png";
+import silver_03 from "/assets/silver_03.png";
+import silver_elite from "/assets/silver_elite.png";
+import silver_master from "/assets/silver_master.png";
+import gold_nova_01 from "/assets/gold_nova_01.png";
+import gold_nova_02 from "/assets/gold_nova_02.png";
+import gold_nova_03 from "/assets/gold_nova_03.png";
+import gold_nova_master from "/assets/gold_nova_master.png";
+import master_guardian_01 from "/assets/master_guardian_01.png";
+import master_guardian_02 from "/assets/master_guardian_02.png";
+import master_guardian_elite from "/assets/master_guardian_elite.png";
+import distinguished_master_guardian from "/assets/distinguished_master_guardian.png";
+import legendary_eagle from "/assets/legendary_eagle.png";
+import legendary_eagle_master from "/assets/legendary_eagle_master.png";
+import supreme_master_first_class from "/assets/supreme_master_first_class.png";
+import the_global_elite from "/assets/the_global_elite.png";
+import unranked from "/assets/unranked.png";
 
 export function getTitle(index: number) {
   switch (index) {

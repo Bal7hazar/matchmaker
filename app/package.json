@@ -9,7 +9,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "codegen": "graphql-codegen",
-    "create-components": "npx @dojoengine/core ../contracts/manifests/dev/manifest.json src/dojo/generated/contractModels.ts http://localhost:5050 0x15cc43807e3cdf2b518aefc7328ed8f1b3490442603b02b519c8749e14b23ab"
+    "create-components": "npx @dojoengine/core ../contracts/manifests/dev/manifest.json src/dojo/generated/contractModels.ts http://localhost:5050 0x15cc43807e3cdf2b518aefc7328ed8f1b3490442603b02b519c8749e14b23ab",
+    "generate-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
     "@dojoengine/core": "0.6.1-alpha.1",
@@ -24,6 +25,7 @@
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
+    "@vite-pwa/assets-generator": "^0.2.4",
     "autoprefixer": "^10.4.19",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
